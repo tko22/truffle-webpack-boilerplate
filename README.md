@@ -1,5 +1,5 @@
-# Ethereum Voting DApp
-A decentralized voting application built on the Ethereum blockchain
+# Boilerplate with Truffle and webpack for dApps built on Ethereum
+
 
 ### Dependencies:
 - [Nodejs 5.0+](https://nodejs.org/en/)
@@ -9,8 +9,8 @@ A decentralized voting application built on the Ethereum blockchain
 ## Setup
 ```
 npm install -g truffle
-git clone https://github.com/tko22/eth-voting-dapp.git
-cd eth-voting-dapp
+git clone https://github.com/tko22/truffle-webpack-boilerplate.git
+cd truffle-webpack-boilerplate
 npm install
 npm run dev
 ```
