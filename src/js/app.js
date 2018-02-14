@@ -6,7 +6,12 @@ import { default as Web3} from "web3"
 import { default as contract } from "truffle-contract"
 
 
+window.App = {
+  start: function() {
+    
+  }
 
+}
 
 
 
@@ -23,4 +28,6 @@ window.addEventListener("load", function() {
     // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
     window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:9545"))
   }
+  // initializing the App
+  window.App.start()
 })
