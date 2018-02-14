@@ -1,0 +1,31 @@
+{
+  "name": "ethereum-voting-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.8",
+    "eslint-plugin-import": "^2.8.0",
+    "json-loader": "^0.5.7",
+    "lite-server": "^2.3.0",
+    "style-loader": "^0.19.1",
+    "truffle-contract": "^3.0.1",
+    "web3": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
