@@ -17,7 +17,7 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
-    "copy-webpack-plugin": "^4.3.1",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^0.28.8",
     "eslint-plugin-import": "^2.8.0",
     "json-loader": "^0.5.7",
